@@ -1,4 +1,4 @@
-function converter() {
+function calcular() {
     var weight = document.getElementById('num')
     var peso = Number(weight.value)
     var height = document.getElementById('num1')
