@@ -5,5 +5,5 @@ function converter() {
     var altura = Number(height.value)
     var res = document.getElementById('resultado')
         IMC = peso / (altura ** 2)
-    res.innerText = imc
+    res.innerText = IMC
 }
